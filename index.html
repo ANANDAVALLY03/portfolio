@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAROJU ANANDAVALLY - Full Stack Web Developer</title>
+    <style>
+        /* General Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #e0f7fa;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #00796b, #26a69a); /* Teal gradient for header */
+            color: #ffffff;
+            padding: 30px 0;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header h2 {
+            font-size: 1.5em;
+            margin: 10px 0;
+            font-weight: 300; 
+            color: #000000; 
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex; 
+            justify-content: center; 
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #ffffff; /* White links */
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 20px;
+            transition: background-color 0.3s ease, color 0.3s ease; 
+            border-radius: 25px; 
+            border: 2px solid transparent; 
+        }
+
+        nav ul li a:hover {
+            background-color: #b2dfdb; 
+            color: #333; 
+            border: 2px solid #ffffff; 
+        }
+
+        section {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background: #ffffff; 
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease; 
+        }
+
+        section:hover {
+            background-color: #f1f8e9; 
+        }
+
+        h2 {
+            color: #000000; 
+            font-size: 2em; 
+            margin-bottom: 15px;
+            position: relative; 
+        }
+
+        h2::after {
+            content: ''; 
+            display: block;
+            width: 50px; 
+            height: 3px; 
+            background: #26a69a; 
+            margin-top: 5px; 
+            border-radius: 2px; 
+        }
+
+        ul {
+            list-style-type: disc; 
+            margin-left: 20px;
+        }
+
+        article {
+            margin-bottom: 20px; 
+            padding: 15px;
+            border: 1px solid #00796b; 
+            border-radius: 10px;
+            background-color: #e0f2f1; 
+            transition: background-color 0.3s ease; 
+        }
+
+        article:hover {
+            background-color: #b2dfdb; 
+        }
+
+        a {
+            color: #00796b; 
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #004d40; 
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: linear-gradient(135deg, #00796b, #26a69a); /* Same gradient as header */
+            color: #ffffff;
+            margin-top: 30px; 
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            header h2 {
+                font-size: 1.3em;
+            }
+
+            nav ul {
+                flex-direction: column; 
+            }
+
+            nav ul li {
+                margin: 5px 0;
+            }
+
+            section {
+                margin: 15px; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="name"></h1>
+        <h2 id="title"></h2>
+        <nav>
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#personal-details">Personal Details</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>I am an enthusiastic Full Stack Web Developer seeking my first professional experience. Eager to contribute to innovative projects and grow my learning with a collaborative team.</p>
+    </section>
+
+    <section id="personal-details">
+        <h2>Personal Details</h2>
+        <p><strong>Phone:</strong> +918464920307</p>
+        <p><strong>Email:</strong> <a href="mailto:marojanandavally2004@email.com">marojanandavally2004@email.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/marojuanandavally/">Visit my profile</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/ANANDAVALLY03">Check my repositories</a></p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>B.Tech (CSE) - Lovely Professional University (2022-2026)</li>
+            <li>Higher Secondary Education - Sri Chaitanya Junior College (Vattinagullapalli, Hyderabad)</li>
+            <li>Elementary Education - St. Martin's High School (Chintal, Hyderabad)</li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Node.js</li>
+            <li>React.js</li>
+            <li>MongoDB</li>
+            <li>Bootstrap</li>
+            <li>jQuery</li>
+            <li>C Programming</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <article>
+            <h3>Prema Ananda Spiritual Society Website</h3>
+            <p>A responsive webpage developed for the NGO.</p>
+            <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+            <a href="link-to-your-project">View Project</a>
+        </article>
+        <article>
+            <h3>Hospital Management System (HMS)</h3>
+            <p>An application to manage hospital operations.</p>
+            <p><strong>Technologies:</strong> Node.js, MongoDB</p>
+            <a href="link-to-your-project">View Project</a>
+        </article>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>HTML, CSS, and JavaScript for Web Developers (Johns Hopkins University) - Coursera</li>
+            <li>Server-Side JavaScript with Node.js (NIIT) - Coursera</li>
+            <li>Static Routing Configuration Using Packet Tracer - Coursera</li>
+            <li>Software Development Processes and Methodologies (University of Minnesota) - Coursera</li>
+            <li>Introduction to Generative AI - Coursera</li>
+            <li>C++ with DSA - Udemy</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 MAROJU ANANDAVALLY. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // JavaScript to dynamically set name and title
+        document.getElementById('name').textContent = 'MAROJU ANANDAVALLY';
+        document.getElementById('title').textContent = 'Full Stack Web Developer';
+    </script>
+</body>
+</html>
